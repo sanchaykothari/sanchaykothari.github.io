@@ -43,7 +43,7 @@ function determineWinner(userChoice)
     }
   else if(userChoice === 'paper')
     {
-      if(computerChoice === 'scissors')
+      if(computerChoice === 'scissor')
         {
           computerWin(userChoice,computerChoice);
         }
