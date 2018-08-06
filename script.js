@@ -36,7 +36,7 @@ function determineWinner(userChoice)
         {
           computerWin(userChoice,computerChoice);
         }
-      else
+      else if(computerChoice === 'scissor')
         {
           userWin(userChoice,computerChoice);
         }
@@ -47,7 +47,7 @@ function determineWinner(userChoice)
         {
           computerWin(userChoice,computerChoice);
         }
-      else
+      else if(computerChoice === 'rock')
         {
           userWin(userChoice,computerChoice);
         }
@@ -58,7 +58,7 @@ function determineWinner(userChoice)
         {
           computerWin(userChoice,computerChoice);
         }
-      else
+      else if(computerChoice === 'paper')
         {
           userWin(userChoice,computerChoice);
         }
